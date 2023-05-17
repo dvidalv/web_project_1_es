@@ -196,10 +196,6 @@
   margin: 0;
   padding-top: 20px;
 }
-.table__cell_padding-botton{
-  /* padding-bottom: 60px; */
-}
-
 
 /* BLOQUE FEYMAN */
 .feynman{
@@ -227,8 +223,9 @@
   position: relative;
   z-index: 1;
 }
-.feynman_title_padding-top{
+.feyman_title_padding_top_margin_cero{
   padding-top: 100px;
+  margin: 0 auto;
 }
 .feynman_subtitle{
   text-align: center;
@@ -238,8 +235,9 @@
   position: relative;
   z-index: 1;
 }
-.feynman_subtitle_padding-top{
+.feyman_subtitle_padding_top_margin_cero{
   padding-top: 70px;
+  margin: 0 auto;
 }
 .feynman_link{
   line-height: 51px;
@@ -247,6 +245,7 @@
   font-weight: normal;
   text-decoration: none;
   color: #2F80ED;
+  z-index: 1;
   
 }
 .feynman_link_possition{
@@ -273,9 +272,7 @@
   color: white;
   padding-bottom: 60px;
 }
-.table_gap-x{
-  
-}
+
 .table_theme-dark{
   color: white;
 }
@@ -304,61 +301,59 @@
 
 /* FOOTER */
 .footer{
-  max-height: 350px;
-  height: 350px;
-  color: white;
   background-color: #000000;
   padding: 60px 0 40px 0;
-
-
+  height: 350px;
 }
-.footer__contenedor{
+.footer__columns{
   height: 100%;
-  width: 90%;
-  margin: 0 auto;
   display: flex;
+  justify-content: space-around;
+}
+.footer__column_content_copyright{
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
-
-
+}
+.footer__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  
 }
 .logo_place_footer{
   width: 183px;
   height: 35px;
 }
-
-.footer__columns_content_copyright{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 711px;
-}
 .footer__autor{
-  padding: 18px 0 18px 0;
+  color: white;
+  margin: 18px 0 18px 0;
   line-height: 25px;
   font-size: 18px;
-}
-.footer__list{
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  
+  font-weight: normal;
 }
 .footer__column-heading{
+  color: #fff;
   line-height: 30px;
   font-size: 18px;
-  font-weight: normal;
-  padding-bottom: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 .footer__column-link{
+  color: #fff;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   text-decoration: none;
-  color: white;
+
+}
+.footer__columnn_content_social{
+  line-height: 30px;
+  
 }
 .footer__social-icons{
   width: 16px;
   height: 16px;
-  padding-right: 10px;
+  margin-right: 10px;
 }
-
