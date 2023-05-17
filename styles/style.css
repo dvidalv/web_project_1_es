@@ -103,7 +103,7 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  color: #2F80ED
+  color: #2F80ED;
 }
 .two-columns{
   display: flex;
@@ -359,10 +359,6 @@
 .footer__social-icons{
   width: 16px;
   height: 16px;
-}
-.icono{
-
-}
-.footer__social-icons{
   padding-right: 10px;
 }
+
