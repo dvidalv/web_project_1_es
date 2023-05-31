@@ -4,8 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="vendors/normalize.css">
+  <link rel="stylesheet" href="pagues/style.css">
   <title>Aprender a aprender</title>
 </head>
 
@@ -15,7 +15,7 @@
       <div class="logo logo_place_header">
         <img class="logo__imagen" src="./images/logo_place_header.png" alt="logo practicum">
       </div>
-      <h1 class="header__title margin-cero">Aprender a aprender</h1>
+      <h1 class="header__title">Aprender a aprender</h1>
       <div class="header__subtitle margin-cero">
         <p class="margin-cero">
           Las técnicas de aprendizaje más eficaces y avanzadas que puedes aplicar en tu vida diaria
@@ -25,9 +25,10 @@
         </a>
       </div>
       <img class="header__main-illustration" src="./images/header-image.png" alt="hombre parado sobre una roca">
-      <div class="header__square"></div>
+      <div class="header__square rotacion_deg_360"></div>
     </header>
     <main class="content">
+
       <section class="description">
         <div class="two-columns">
           <div class="two-columns__brief">
@@ -59,9 +60,90 @@
         </div>
       </section>
 
+      <section class="techniques">
+        <h2 class="section-title">Técnicas de aprendizaje</h2>
+        <h3 class="section-subtitle">Cinco estrategias por Barbara Oakley</h3>
+
+        <div class="cards">
+          <div class="card__item">
+            <img src="images/cards-attention.png" alt="imagen libro 101 essays" class="card__image">
+            <h3 class="card__title ">Piensa de dos maneras distintas</h3>
+            <p class="card__descripcion">Un profundo conocimiento
+              se puede lograr alternando libremente entre el pensamiento concentrado y el difuso.</p>
+          </div>
+
+          <div class="card__item">
+            <img src="images/cards-recall.png" alt="imagen estatua pensando" class="card__image">
+            <h3 class="card__title">Usa el recuerdo</h3>
+            <p class="card__descripcion">Mejorar tu capacidad de
+              information helps to connect recordar piezas clave de
+              different part of the brain. información ayuda a
+              conectar diferentes áreas del cerebro.</p>
+          </div>
+
+
+          <div class="card__item">
+            <img src="images/cards-interleaving.png" alt="imagen auditorio" class="card__image">
+            <h3 class="card__title">Alterna</h3>
+            <p class="card__descripcion">Cuando aprendes múltiples habilidades al mismo tiempo, estas se refuerzan
+              mutuamente.</p>
+          </div>
+
+          <div class="card__item">
+            <img src="images/cards-question.png" alt="imagen auditorio" class="card__image">
+            <h3 class="card__title">Haz preguntas</h3>
+            <p class="card__descripcion">Cuando escuches a tu profesor, piensa en una buena pregunta, en algo que realmente te intriga.</p>
+          </div>
+
+          <div class="card__item">
+            <img src="images/cards-competence.png" alt="imagen auditorio" class="card__image">
+            <h3 class="card__title">Crea la ilusión de competencia</h3>
+            <p class="card__descripcion">Ponte a pruebas, apunta tus resultados, cuéntaselo a otras personas y repite el proceso con diferentes configuraciones. Solo entonces podras estar seguro de haber comprendido algo.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="video">
+        <h2 class=" section-title">Charlas TED</h2>
+        <h3 class=" section-subtitle">Para los amantes de la procrastinación</h3>
+        <div class="video__iframes">
+          <iframe class="video__iframe" id="ytplayer" type="text/html" width="720" height="405"
+            src="https://www.youtube.com/embed/5MgBikgcWnY?autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+          <iframe class="video__iframe" id="ytplayer" type="text/html" width="720" height="405"
+            src="https://www.youtube.com/embed/arj7oStGLkU?autoplay=1&loop=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+
+      <section class="oakley">
+        <div class="two-columns">
+          <div class=" two-columns__brief">
+            <h4 class="two-columns__brief-texto">La historia de Barbara Oakley</h4>
+          </div>
+          <div class=" two-columns__main-text">
+            <p>Durante la infancia de Barbara, las matemáticas no le surgieron de forma innata. Pensaba que era una
+              persona más orientada a las humanidades, y no precisamente brillante. En vistas a convertirse en
+              lingüista, después de terminar el instituto se alistó en el ejército, donde la mandaron a aprender
+              ruso. Tras varios años de servicio, durante los cuales ascendió al rango de capitán, Barbara dejó el
+              ejército y decidió estudiar ingeniería. Fue en este momento cuando desarrolló su metodología de
+              aprendizaje, porque se vio obligada a reprogramar su cerebro para un tipo de aprendizaje distinto. Resulta
+              que cuando algo no te sale de forma natural, el hecho de tener que trabajar duro para obtener
+              conocimientos, que otras personas pueden captar a la primera, te da un conocimiento más profundo y
+              completo del tema en cuestión.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feynman">
+        <img class="feynman__imagen" src=".//images/feynman.png"
+          alt="Una imagen de Richard Feynman, físico cuántico de fama mundial. Ta Técnica Feynman se deriva de sus métodos de estudio cuando era estudiante en Princeton.">
+        <h2 class="feynman_title feyman_title_padding_top_margin_cero">La técnica Feynman</h2>
+        <h3 class="feynman_subtitle feyman_subtitle_padding_top_margin_cero">Aprender sin olvidar</h3>
+        <a class="feynman_link feynman_link_possition" href="#">Más →</a>
+      </section>
+
       <section class="digits">
-        <h2 class="section-title margin-cero">Datos y figuras</h2>
-        <h3 class="section-subtitle margin-cero">El aprendizaje y el cerebro</h3>
+        <h2 class="section-title">Datos y figuras</h2>
+        <h3 class="section-subtitle">El aprendizaje y el cerebro</h3>
         <ul class="table">
           <li class="table__cell table__cell_padding-botton ">
             <header class="table__heading">86 billones</header>
@@ -114,21 +196,25 @@
           </li>
         </ul>
       </section>
-
-      <section class="feynman">
-        <img class="feynman__imagen" src=".//images/feynman.png"
-          alt="Una imagen de Richard Feynman, físico cuántico de fama mundial. Ta Técnica Feynman se deriva de sus métodos de estudio cuando era estudiante en Princeton.">
-        <h2 class="feynman_title feyman_title_padding_top_margin_cero">La técnica Feynman</h2>
-        <h3 class="feynman_subtitle feyman_subtitle_padding_top_margin_cero">Aprender sin olvidar</h3>
-        <a class="feynman_link feynman_link_possition" href="#">Más →</a>
-
-
-
+      <section class="khan">
+        <div class="khan__container">
+          <h3 class="khan__author">Salman Khan</h3>
+          <h2 class="khan__title">La Escuela del mundo</h2>
+          <blockquote class="khan__quote">La pasión e innovación de Sal Khan están transformando el aprendizaje de
+            millones de estudiantes de todo el mundo. "La escuela del mundo" es una lectura obligatoria para todos
+            aquellos que estén comprometidos a mejorar la educación y quieran que estudiantes de todos los rincones del
+            mundo adquieran las habilidades y conocimientos necesarios para tener éxito académico, profesional y en la
+            vida en general.</blockquote>
+            <h3 class="khan__quote-author">George Lucas</h3>
+            <h4 class="khan__quote-author-subline">Director de cine</h4>
+            <div class="khan__block-container">
+              <img class="khan__book-pic" src="images/khan-book-2.png" alt="portada libro de one world school house">
+              <a class="khan__buy-link" href="#">Comprar libro →</a>
+            </div>
+          </div>
       </section>
 
-
       <section class="kaufman">
-
         <h2 class="section-title section-title_theme_dark margin-cero">Diez principios para adquirir habilidades
           rápidamente</h2>
         <h4 class="section-subtitle section-subtitle_theme_dark margin-cero ">by Josh Kaufman</h4>
@@ -195,9 +281,19 @@
             </p>
           </li>
         </ul>
-        <img class="kaufman__triangulo" src="./images/kaufman-triangle.svg"
+        <img class="kaufman__triangulo rotacion_deg_360" src="./images/kaufman-triangle.svg"
           alt="Un gran triángulo azul, sobre el que Josh Kaufman reclama la propiedad">
 
+      </section>
+      <section class="resources">
+        <h2 class=" section-title">Recursos útiles</h2>
+        <h3 class=" section-subtitle">Más materiales sobre técnicas y trucos de aprendizaje</h3>
+        <div class="resources__logo-zone">
+          <img class="resources__logo" src="images/logo/resources-tedED.png" alt="logo teded">
+          <img class="resources__logo" src="images/logo/resources-Medium.png" alt="logo medium">
+          <img class="resources__logo" src="images/logo/resources-dezeen.png" alt="logo dezeen">
+          <img class="resources__logo" src="images/logo/resources-goodreads.png" alt="logo goodreads">
+        </div>
       </section>
     </main>
     <footer class="footer">

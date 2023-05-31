@@ -1,0 +1,65 @@
+.header {
+    height: 100vh;
+    min-height: 600px;
+    max-height: 756px;
+    background-color: #F2F2F2;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .header__title{
+    margin: 0 0 0 64px;
+    line-height: 96px;
+    font-size: 102px;
+    font-weight: bold;
+    width: 50%;
+    z-index: 3;
+  }
+  .header__subtitle{
+    position: absolute;
+    bottom: 30px;
+    left: 64px;
+    width: 388px;
+    line-height: 25px;
+    font-size: 18px;
+    z-index: 3;
+  }
+  .header__link{
+    color: #2F80ED;
+    text-decoration: none;
+  }
+  /* .header__mas-informacion p{
+    margin-bottom: 0;
+  } */
+  
+  
+  .header__contenido{
+    display: flex;
+  }
+  .header__imagenes{
+    width: 50%;
+    /* border: 1px solid; */
+  }
+  .header__main-illustration{
+  
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 756px;
+    height: 608px;
+    z-index: 2;
+  }
+  
+  /* here we have two examples of selectors in order to remind you how to set styles for elements */
+  .header__square {
+    height: 568px;
+    width: 568px;
+    background-color: #2F80ED;
+    position: absolute;
+    top: 64px;
+    right: 0;
+    z-index: 1;
+    transform: rotate(-15deg);
+  }

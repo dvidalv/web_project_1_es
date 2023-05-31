@@ -1,0 +1,44 @@
+/* kaufman */
+.kaufman{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+    transform: translateY(-400px);
+  }
+  .section-title_theme_dark{
+    z-index: 1;
+    color: white;
+    padding-top: 90px;
+  }
+  .section-subtitle_theme_dark{
+    color: white;
+    padding-bottom: 60px;
+  }
+  
+  .table_theme-dark{
+    color: white;
+  }
+  .table__heading_style{
+    text-align: left;
+  
+    font-size: 24px;
+  }
+  .table__text_style{
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .table__cell_size{
+    width: 200px;
+  }
+  /* including elements with key-value modifiers */
+  .theme_dark {
+    color: white;
+  }
+  .kaufman__triangulo{
+    position: absolute;
+    right: -124px;
+  }

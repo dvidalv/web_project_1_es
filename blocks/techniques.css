@@ -1,0 +1,33 @@
+.techniques{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    width: 920px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    text-align: center;
+
+}
+.card__item{
+    width: 240px;
+}
+.card__image{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 60px 40px 43px;
+}
+.card__title{
+    line-height: 1.15;
+    font-size: 24px;
+    font-weight: bold;
+}
+.card__descripcion{
+    line-height: 23px;
+    font-size: 18px;
+    font-weight: normal;
+}
