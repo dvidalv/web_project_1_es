@@ -12,6 +12,6 @@
   .margin-cero{
     margin: 0;
   }
-  .rotacion_deg_360{
+  .rotacion360{
     animation: rotacion__360deg 20s linear 0s infinite;
   }

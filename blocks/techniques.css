@@ -12,21 +12,21 @@
     text-align: center;
 
 }
-.card__item{
+.cards__item{
     width: 240px;
 }
-.card__image{
+.cards__image{
     width: 160px;
     height: 160px;
     border-radius: 50%;
     padding: 60px 40px 43px;
 }
-.card__title{
+.cards__title{
     line-height: 1.15;
     font-size: 24px;
     font-weight: bold;
 }
-.card__descripcion{
+.cards__descripcion{
     line-height: 23px;
     font-size: 18px;
     font-weight: normal;
