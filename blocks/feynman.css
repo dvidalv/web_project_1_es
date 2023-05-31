@@ -13,7 +13,7 @@
     left: 0;
     
   }
-  .feynman_title{
+  .feynman__title{
     line-height: 1.15;
     font-size: 120px;
     font-weight: bold;
@@ -24,11 +24,8 @@
     position: relative;
     z-index: 1;
   }
-  .feyman_title_padding_top_margin_cero{
-    /* padding-top: 100px; */
-    margin: 0 auto;
-  }
-  .feynman_subtitle{
+ 
+  .feynman__subtitle{
     text-align: center;
     line-height: 51px;
     font-size: 36px;
@@ -36,11 +33,11 @@
     position: relative;
     z-index: 1;
   }
-  .feyman_subtitle_padding_top_margin_cero{
+  .feyman__subtitle_padding-top_margin_cero{
     padding-top: 70px;
     margin: 0 auto;
   }
-  .feynman_link{
+  .feynman__link{
     line-height: 51px;
     font-size: 36px;
     font-weight: normal;
@@ -49,7 +46,7 @@
     z-index: 1;
     
   }
-  .feynman_link_possition{
+  .feynman__link_possition{
     position: absolute;
     top: 50%;
     right: 48px;
