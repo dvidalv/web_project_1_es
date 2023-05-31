@@ -32,11 +32,10 @@
     font-weight: normal;
     position: relative;
     z-index: 1;
-  }
-  .feyman__subtitle_padding-top_margin_cero{
     padding-top: 70px;
     margin: 0 auto;
   }
+
   .feynman__link{
     line-height: 51px;
     font-size: 36px;

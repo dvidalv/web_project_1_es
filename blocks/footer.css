@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-around;
   }
-  .footer__column_content-copyright{
+  .footer__column-content-copyright{
     flex-basis: 711px;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@
     text-decoration: none;
   
   }
-  .footer__columnn_content-social{
+  .footer__columnn-content-social{
     line-height: 30px;
     
   }
