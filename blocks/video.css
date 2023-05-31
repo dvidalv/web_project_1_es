@@ -24,6 +24,7 @@
 .video__iframe{
     flex-basis: 515px;
     height: 316px;
+    border: none;
 }
 
 
