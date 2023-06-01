@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="vendors/normalize.css">
-  <link rel="stylesheet" href="pagues/index.css">
+  <link rel="stylesheet" href="pages/index.css">
   <title>Aprender a aprender</title>
 </head>
 
@@ -13,7 +12,9 @@
   <div class="page">
     <header class="header">
       <div class="logo logo_place_header">
-        <img class="logo__imagen" src="./images/logo_place_header.png" alt="logo practicum">
+        <a href="#">
+          <img class="logo__imagen" src="./images/logo_place_header.png" alt="logo practicum">
+        </a>
       </div>
       <h1 class="header__title">Aprender a aprender</h1>
       <div class="header__subtitle margin-cero">
@@ -37,24 +38,19 @@
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph margin-cero">
               Ya sea en la escuela o en la universidad, lo único que nadie te enseña es a enseñarte a ti
-              mismo. Muchas veces acabamos haciendo ejercicios específicos y memorizando información
-              24
-              sin pensar, para que cuando llegue la hora del examen, aprobemos la prueba. Pero una vez
+              mismo. Muchas veces acabamos haciendo ejercicios específicos y memorizando información sin pensar, para que cuando llegue la hora del examen, aprobemos la prueba. Pero una vez
               terminada la prueba, esa información ya no tiene utilidad, y no hay garantía de que se
               conserve. Al final, solo estamos aprendiendo a pasar las pruebas.
             </p>
             <p class="two-columns__paragraph margin-cero"><span class="two-columns__span-accent">Aquí está la verdadera
                 pregunta:</span> ¿este enfoque de
               repetición y memorización nos ayuda a
-              comprender realmente la materia? El consenso académico actual es que no. En realidad, lo 5
-              que es más importante que cualquier tema individual es saber cómo estudiar, pero por alguna razón, este
+              comprender realmente la materia? El consenso académico actual es que no. En realidad, lo que es más importante que cualquier tema individual es saber cómo estudiar, pero por alguna razón, este
               punto a menudo se pasa por alto. Entonces, ¿qué podemos hacer para
               remediarlo?</p>
             <p class="two-columns__paragraph margin-cero">Bien, hay varias técnicas y ejercicios que pueden aplicarse al
               proceso
-              educativo para ayudar a
-              6
-              hacerlo más eficiente y atractivo. Continúa avanzando para descubrir algunos de los secretos
+              educativo para ayudar a hacerlo más eficiente y atractivo. Continúa avanzando para descubrir algunos de los secretos
               del aprendizaje eficaz.</p>
           </div>
         </div>
@@ -208,8 +204,12 @@
             <h3 class="khan__quote-author">George Lucas</h3>
             <h4 class="khan__quote-author-subline">Director de cine</h4>
             <div class="khan__block-container">
-              <img class="khan__book-pic" src="images/khan-book-2.png" alt="portada libro de one world school house">
-              <a class="khan__buy-link" href="#">Comprar libro →</a>
+              <div class="khan__div-book">
+                <img class="khan__book-pic" src="images/khan-book-2.png" alt="portada libro de one world school house">
+              </div>
+              <div>
+                <a class="khan__buy-link" href="#">Comprar libro →</a>
+              </div>
             </div>
           </div>
       </section>
@@ -289,17 +289,27 @@
         <h2 class=" section-title">Recursos útiles</h2>
         <h3 class=" section-subtitle">Más materiales sobre técnicas y trucos de aprendizaje</h3>
         <div class="resources__logo-zone">
-          <img class="resources__logo" src="images/logo/resources-tedED.png" alt="logo teded">
-          <img class="resources__logo" src="images/logo/resources-Medium.png" alt="logo medium">
-          <img class="resources__logo" src="images/logo/resources-dezeen.png" alt="logo dezeen">
-          <img class="resources__logo" src="images/logo/resources-goodreads.png" alt="logo goodreads">
+          <a href="#">
+            <img class="resources__logo" src="images/logo/resources-tedED.png" alt="logo teded">
+          </a>
+          <a href="#">
+            <img class="resources__logo" src="images/logo/resources-Medium.png" alt="logo medium">
+          </a>
+          <a href="#">
+            <img class="resources__logo" src="images/logo/resources-dezeen.png" alt="logo dezeen">
+          </a>
+          <a href="#">
+            <img class="resources__logo" src="images/logo/resources-goodreads.png" alt="logo goodreads">
+          </a>
         </div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
         <div class="footer__column-content-copyright">
-          <img class="logo logo_place_footer" src="./images/logo_place_footer.png" alt="logo practicum">
+          <a class="footer__enlace-logo" href="#">
+            <img class="logo logo_place_footer" src="./images/logo_place_footer.png" alt="logo practicum">
+          </a>
           <p class="footer__autor margin-cero">
             &copy; 2021 David Vidal
           </p>

@@ -3,7 +3,9 @@
     background-color: #000000;
     padding: 60px 0 40px 0;
     height: 350px;
-    transform: translateY(-400px);
+  }
+  .footer__enlace-logo{
+    width: 183px;
   }
   .footer__columns{
     height: 100%;

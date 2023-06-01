@@ -6,7 +6,8 @@
     background-color: #000000;
     position: relative;
     overflow: hidden;
-    transform: translateY(-400px);
+    /* transform: translateY(-400px); */
+
   }
   .section-title_theme_dark{
     z-index: 1;
@@ -14,6 +15,7 @@
     padding-top: 90px;
   }
   .section-subtitle_theme_dark{
+    z-index: 1;
     color: white;
     padding-bottom: 60px;
   }

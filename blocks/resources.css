@@ -5,7 +5,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(-400px);
+    /* transform: translateY(-400px); */
     /* outline: 1px solid; */
 }
 .resources__logo-zone{

@@ -49,8 +49,11 @@
     justify-content: left;
     gap: 48px;
     overflow: hidden;
-
 }
+.khan__div-book{
+    height: 550px;
+    overflow: hidden;
+  }
 .khan__book-pic{
     width: 620px;
     /* height: 608px; */
